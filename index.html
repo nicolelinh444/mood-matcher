@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Matcher</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Mood Matcher</h1>
+    <!-- create form and named it mood matcher form -->
+    <form class="mood-matcher-form">
+        <!-- create label for mood drop down -->
+        <label for="mood">How are you feeling today?</label>
+        <br>
+        <!-- create dropdown menu with the name/id mood -->
+         <select id="mood" name="mood">
+            <!-- added mood options inside of dropdown menu -->
+             <option value="happy">Happy</option>
+             <option value="sad">Sad</option>
+             <option value="calm">Calm</option>
+         </select><br>
+         <!-- create label for text input area mood-reason -->
+          <label for="mood-reason">Why do you feel this way?</label>
+          <br><br>
+         <!-- create text input area with the name/id mood-reason -->
+          <textarea  id="mood-reason" name="mood-reason" rows="5" cols="50"></textarea>
+          <!-- create submit button -->
+           <button type="submit">Submit</button>
+    </form>
+    <p class="mood-output"></p>
+    <script src="/js/index.js">
+    </script>
+</body>
+</html>
