@@ -24,19 +24,19 @@ function onSubmit(event) {
 // if current mood equals happy, a happy message will appear in the output section  
   if (currentMood  === "happy") {
     output.textContent = "You're happy! Keep having a happy day.";
-    img.src = './images/happy.png';
+    img.src = 'images/happy.png';
     img.alt = 'yellow happy face emoji'
   } 
   // if the mood equals sad, a sad message will appear
     else if (currentMood === "sad") {
     output.textContent = "You're sad! It's okay to cry.";
-    img.src = './images/sad.png';
+    img.src = 'images/sad.png';
     img.alt ='yellow sad face emoji';
   } 
   // if the mood is calm, a calm message will appear
     else if (currentMood === "calm") {
     output.textContent = "You're calm. Let's be at peace together."
-    img.src = '.images/calm.png';
+    img.src = images/calm.png';
     img.alt = 'yellow calm face emoji'
   }; 
 
